@@ -2,26 +2,26 @@ import { InlineCode } from "@/once-ui/components";
 
 const person = {
   firstName: "Digitrex",
-  lastName: "Io",
+  lastName: "Tech",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Tech consulting",
   avatar: "/images/avatar.jpg",
   location: "Europe/Vienna", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English","Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English","Arabic"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Subscribe to Digitrex's Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      Stay updated with the latest in technology, design, and innovation. I share insights on the intersection of creativity, engineering, and emerging tech trends. Join the conversation and stay ahead of the curve!
     </>
   ),
 };
+
 
 const social = [
   // Links are automatically displayed.
@@ -37,9 +37,9 @@ const social = [
     link: "https://www.linkedin.com/company/once-ui/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.linkedin.com/company/once-ui/",
   },
   {
     name: "Email",
@@ -50,13 +50,13 @@ const social = [
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  title: `Welcome to Digitrex`,
+  description: `Pioneering AI-driven solutions and technology consulting to shape the future of digital transformation.`,
+  headline: <>Innovating the Future with AI & Technology</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      At <InlineCode>Digitrex</InlineCode>, we build intelligent solutions that redefine industries.
+      <br /> From AI-driven applications to scalable cloud infrastructure, we turn ideas into reality.
     </>
   ),
 };
