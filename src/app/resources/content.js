@@ -9,7 +9,7 @@ const person = {
   role: "Tech consulting",
   avatar: "/images/avatar.jpg",
   location: "APAC", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English","Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
