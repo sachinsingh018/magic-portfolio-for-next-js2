@@ -73,7 +73,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://majlis.network/",
   },
   intro: {
     display: true,
