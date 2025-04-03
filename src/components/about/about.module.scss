@@ -4,7 +4,7 @@
 
     &:hover {
         transform: translateX(var(--static-space-4));
-        background-color: grey; /* Change background to grey on hover */
+        background-color: grey!important;  /* Change background to grey on hover */
     }
 }
 
