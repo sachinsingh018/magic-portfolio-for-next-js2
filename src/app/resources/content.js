@@ -88,7 +88,7 @@ const about = {
   },
 work: {
   display: true, // set to false to hide this section
-  title: "Our Expertise",
+  title: "Our Experience",
   experiences: [
     {
       company: "Digitrex AI Solutions",
