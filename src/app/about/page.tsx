@@ -115,38 +115,11 @@ export default function About() {
             horizontal="center"
           >
             
-        <Flex>
-  {/* Left Decorative Strip */}
-  <Column
-    position="fixed"
-    left="0"
-    height="100vh"
-    width="8" // Adjust width as needed
-    background="brand-weak" // Change to desired color/gradient
-    hide="s" // Hide on smaller screens if necessary
-  />
-
-  {/* Table of Contents */}
-  {about.tableOfContent.display && (
-    <Column
-      left="8" // Shift it right to align with the decoration
-      style={{ top: "50%", transform: "translateY(-50%)" }}
-      position="fixed"
-      paddingLeft="24"
-      gap="32"
-      hide="s"
-    >
-      <TableOfContents structure={structure} about={about} />
-    </Column>
-  )}
-
-  {/* Main Content */}
-  <Flex fillWidth mobileDirection="column" horizontal="center">
-    <Column className={styles.blockAlign} flex={9} maxWidth={40}>
-      {/* Rest of your content */}
-    </Column>
-  </Flex>
-</Flex>
+           <Flex gap="8" vertical="center">
+              
+              {" "}
+            </Flex>
+            
 
           </Column>
         )}
