@@ -1,8 +1,10 @@
 .hover {
     transition: var(--transition-micro-medium);
+    background-color: var(--original-background-color); /* Default background color */
 
     &:hover {
         transform: translateX(var(--static-space-4));
+        background-color: grey; /* Change background to grey on hover */
     }
 }
 
