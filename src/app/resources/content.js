@@ -86,55 +86,53 @@ const about = {
       </>
     ),
   },
-
-  work: {
-    display: true, // set to false to hide this section
-    title: "Work Experience",
-    experiences: [
-      {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
-        achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
-    ],
-  },
+work: {
+  display: true, // set to false to hide this section
+  title: "Our Expertise",
+  experiences: [
+    {
+      company: "Digitrex AI Solutions",
+      timeframe: "2020 - Present",
+      role: "Technology & AI Solutions Partner",
+      achievements: [
+        <>
+          Engineered AI-powered automation tools that improved operational efficiency by 35%  
+          for enterprise clients.
+        </>,
+        <>
+          Developed scalable cloud infrastructure solutions, reducing downtime and  
+          optimizing system performance for businesses worldwide.
+        </>,
+      ],
+      images: [
+        {
+          src: "/images/projects/project-01/cover-01.jpg",
+          alt: "AI Solutions",
+          width: 16,
+          height: 9,
+        },
+      ],
+    },
+    {
+      company: "InnovateX Labs",
+      timeframe: "2016 - 2020",
+      role: "Lead Software Architect",
+      achievements: [
+        <>
+          Designed and implemented an advanced cybersecurity framework, securing digital assets  
+          for Fortune 500 companies.
+        </>,
+        <>
+          Led the development of a machine learning-powered recommendation system,  
+          enhancing customer engagement by 25%.
+        </>,
+      ],
+      images: [],
+    },
+  ],
+},
   studies: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
