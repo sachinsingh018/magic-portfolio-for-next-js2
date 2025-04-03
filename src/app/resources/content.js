@@ -147,11 +147,11 @@ work: {
   },
         technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Technical Expertise",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "AI & Data Science",
+        description: <>Developing AI-driven solutions to optimize business processes and decision-making.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -169,8 +169,8 @@ work: {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Cloud & DevOps",
+        description: <>Building scalable, cloud-native applications with automated CI/CD pipelines.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
