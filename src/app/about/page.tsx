@@ -115,7 +115,7 @@ export default function About() {
             horizontal="center"
           >
             
-           <Flex gap="8" vertical="center">
+           <Flex gap="1" vertical="center">
               
               {" "}
             </Flex>
