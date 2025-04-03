@@ -1,7 +1,7 @@
 ---
-title: "Automating Design Handovers with a Figma to Code Pipeline"
+title: "AI-Powered Sentiment Analysis for Social Media"
 publishedAt: "2024-04-01"
-summary: "Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think."
+summary: "Exploring the power of AI and use cases in Social Media"
 images:
   - "/images/projects/project-01/cover-02.jpg"
   - "/images/projects/project-01/image-03.jpg"
@@ -15,30 +15,33 @@ team:
 
 ## Overview
 
-In this project, I focused on automating the often tedious design handover process. The goal was to create a pipeline that converts Figma designs directly into clean, production-ready code. By integrating design tokens, component libraries, and automated workflows, this solution significantly reduced the time spent on translating design assets into code, while maintaining design consistency across the product.
+This project focused on building an AI-powered sentiment analysis tool for real-time social media monitoring. The goal was to create a system that could analyze user-generated content on platforms like Twitter and Reddit to identify trends, detect sentiment shifts, and provide actionable insights. By using natural language processing (NLP) techniques and machine learning, this tool helps businesses understand public opinion and react to emerging issues in real-time.
 
 ## Key Features
 
-- **Figma Plugin Integration**: Developed a custom Figma plugin that extracts design tokens such as colors, typography, and spacing values, and exports them in a format compatible with our codebase.
-- **Code Generation**: Integrated an automated process that translates Figma components into React code using a combination of design tokens and pre-built component templates. This allowed developers to focus more on logic and less on repetitive UI coding.
-- **Continuous Sync**: Established a CI/CD pipeline that continuously synchronizes design changes from Figma to the codebase, ensuring design updates are reflected instantly without manual intervention.
-- **Scalable Design System**: Leveraged a design system that remains the single source of truth for both designers and developers, making it easy to maintain consistency even as the product evolves.
+### Real-Time Data Collection
+Developed a data pipeline to scrape and analyze social media posts in real-time, using APIs from platforms like Twitter and Reddit.
+
+### Sentiment Analysis
+Built a machine learning model using NLP techniques (BERT and GPT) to classify the sentiment of each post (positive, negative, or neutral) with high accuracy.
+
+### Trend Detection
+Implemented algorithms to detect emerging trends by analyzing frequent keywords and hashtags, providing early insights into shifts in public sentiment.
+
+### Actionable Insights Dashboard
+Created a user-friendly dashboard that visualizes sentiment trends, helping businesses identify areas for improvement and track customer feedback.
 
 ## Technologies Used
 
-- **Figma API**: For extracting design tokens and component data directly from the Figma designs.
-- **React and Next.js**: For building the front-end codebase with clean, reusable components.
-- **Styled-Components**: For managing styles dynamically using design tokens.
-- **GitHub Actions**: For automating the pipeline and syncing design changes to the repository.
+- **Python**: For implementing the NLP models and data processing pipelines.
+- **TensorFlow & Hugging Face**: For training and deploying BERT and GPT-based models for sentiment analysis.
+- **Twitter & Reddit APIs**: For data collection from social media platforms.
+- **Dash**: For building the real-time sentiment analysis dashboard.
 
 ## Challenges and Learnings
 
-One of the biggest challenges was ensuring that the generated code was clean and maintainable. This involved setting up intelligent mapping between Figma components and React code structures, as well as managing edge cases like responsive design and conditional rendering. Additionally, the continuous synchronization required a robust error-handling system to prevent conflicts during development.
+The primary challenge was ensuring the system could process large volumes of real-time data without latency. Optimizing the sentiment analysis model for accuracy while maintaining speed was crucial. Additionally, handling diverse social media language and slang required continuous fine-tuning of the models to improve their ability to understand context and sentiment.
 
 ## Outcome
 
-The automated Figma to code pipeline has streamlined the handoff process, cutting down design-to-development time by 40%. Designers now have more confidence that their designs will be accurately translated into code, and developers can focus on more complex logic and feature development. This project has proven the value of automation in bridging the gap between design and development.
-
----
-
-This project demonstrates your ability to leverage automation and streamline workflows, which is highly relevant for design engineering portfolios focused on efficiency and innovation.
+The sentiment analysis tool provided businesses with valuable insights into customer sentiment, enabling them to proactively respond to public opinion. The tool successfully detected trends and shifts in sentiment in real-time, contributing to improved decision-making and faster reactions to customer feedback.
