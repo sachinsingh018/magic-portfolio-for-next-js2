@@ -55,7 +55,7 @@ const home = {
   headline: <>Innovating the Future with AI & Technology</>,
   subline: (
     <>
-      At <InlineCode>Digitrex</InlineCode>, we build intelligent solutions that redefine industries.
+      At <InlineCode>Digitrex</InlineCode>, we build intelligent solutions that redefine industries. Based out of Dubai, empowering the globe.
       <br /> From AI-driven applications to scalable cloud infrastructure, we turn ideas into reality.
     </>
   ),
