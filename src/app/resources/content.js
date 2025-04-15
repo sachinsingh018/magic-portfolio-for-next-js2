@@ -29,22 +29,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://www.linkedin.com/company/digitrexio/",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/company/digitrexio/",
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.instagram.com/digitrex.io/",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:sachinsingh018@gmail.com",
   },
 ];
 
