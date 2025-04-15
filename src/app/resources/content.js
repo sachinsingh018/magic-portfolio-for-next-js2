@@ -73,7 +73,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://majlis.network/",
+    link: "https://www.linkedin.com/company/digitrexio/",
   },
   intro: {
     display: true,
