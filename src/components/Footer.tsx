@@ -26,7 +26,7 @@ export const Footer = () => {
         <Text variant="body-default-s" onBackground="neutral-strong">
           <Text onBackground="neutral-weak">© {currentYear} /</Text>
           <Text paddingX="4">{person.name} /</Text>
-          <Text onBackground="neutral-weak">© "62DC, In5 Tech, Dubai, United Arab Emirates" /</Text>
+          <Text onBackground="neutral-weak">62DC, In5 Tech, Dubai, United Arab Emirates </Text>
 
           
           <Text onBackground="neutral-weak">
